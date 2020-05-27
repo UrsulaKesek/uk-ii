@@ -1,0 +1,6 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial Narrow", Arial, sans-serif;
+  }
+  

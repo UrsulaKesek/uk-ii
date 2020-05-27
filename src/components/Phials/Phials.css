@@ -1,0 +1,99 @@
+.scent { 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+      background-color: hsla(43, 93%, 49%, 0.5);
+      width: 1350px;
+      margin: 20px;
+      padding: 20px;
+     } 
+    .scent:hover {
+      background-color: hsla(43, 93%, 49%, 0.9);
+    }
+    .title{
+      background-color: rgb(28, 151, 245);
+      height:40px;
+      border:3px solid black;
+      box-shadow:5px 5px 5px yellow ;
+      padding:10px;
+    }
+    .name {
+      background-color: hsla(43, 93%, 49%, 0.5);
+      height: 50px;
+      width: 250px;
+      
+      padding:10px;
+      color:black;
+      font-size:0.7em;
+    }
+    .name:hover{
+      background-color:rgb(245, 89, 6);
+      height: 80px;
+      width: 400px;
+      border-radius:20px ;
+      z-index:1;
+      font-size:1em;
+      color:black;
+    } 
+    .qty {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-color: hsla(43, 93%, 49%, 0.5);
+      border:1px solid black;
+      box-shadow:5px 5px 5px yellow;
+      width:192px;
+      height:80px;
+      font-size:1em;
+      font-weight: bold;
+    }
+    .qty:hover{
+      background-color: rgb(28, 151, 245);
+      color:white;
+    }
+    .add {
+      position: relative;
+      top:20px;
+      left:50px;
+      width: 30px;
+      height: 40px;
+      font-size:1em;
+      outline:none;
+    }
+    .off{
+      position: relative;
+      top:20px;
+      right:40px;
+      width: 30px;
+      height: 40px;
+      font-size:1em;
+      outline:none;
+    }
+    .addcart {
+        position: relative;
+        bottom:10px;
+        right:35px;
+        background-color: rgb(249, 223, 252);
+        width: 200px;
+        height: 30px;
+        margin: 10px;
+        box-shadow: 5px 5px 5px black;
+        outline: none;
+      }
+      .subtotal {
+        position:relative;
+        top:10px;
+        background-color: rgb(28, 151, 245);
+        width: 150px;
+        height:100px;
+        position: relative;
+        border-radius: 20px;
+        padding:10px;
+        font-weight: 600;
+        box-shadow:5px 5px 5px yellow;
+      }
+      .line-total{
+        font-size: 1.5em;
+        font-weight: 600;
+      }
+    
